@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<project name="rcsmsggw" default="buildWAR" basedir=".">
+	<!--生成WAR-->
+	<target name="buildWAR">
+		<jar jarfile="D:\devtools\openEAP\jboss\server\default\deploy\openEAP4jboss\rcsmsggw.war" compress="yes">
+			<fileset dir="WebRoot" excludes=".svn">
+			</fileset>
+		</jar>
+		<jar jarfile="./rcsmsggw.war" compress="yes">
+			<fileset dir="WebRoot" excludes=".svn">
+			</fileset>
+		</jar>
+	</target>
+</project>

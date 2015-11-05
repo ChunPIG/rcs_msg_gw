@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application module-version="1.0.0#20141014" db-version=""
+	portal-module="false" name="rcsmsggw" sso="true" description="SP短信网关"
+	build-date="2014-10-14"> 
+</application>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <param key="SP_USERID" name="SP认证帐号" description="RCS GW向SP接收短信时需要的认证账号">92084</param>
+   <param key="SP_PASSWORD" name="SP认证密码" description="RCS GW向SP接收短信时需要的认证密码">cellcbx</param>
+   <param key="SP_URL" name="SP服务端地址" description="RCS GW向SP接收短信时需要的认证地址">http://183.61.109.140:9801</param>
+   <param key="IM_URL" name="IM客户端地址"  description="RCS GW向IM下发短信时认证地址">http://172.16.70.124:8088</param>
+   <param key="REVEIVE_MESSAGE_INTERNEL" name="定时向SP请求获取短信的间隔时间" description="单位：毫秒">3000</param>
+</config>
